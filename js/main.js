@@ -21,7 +21,7 @@ function cachingDecorator(func) {
 	// let result = func.call(this, ...arguments);
 	let result = func.apply(this, arguments);
 	cache.set(x, result);
-	return result
+	return result;
     };
 }
 
@@ -29,4 +29,7 @@ function hash() {
     console.log([].join.call(arguments));
     return [].join.call(arguments);
 }
+
+// prototype
+
 
