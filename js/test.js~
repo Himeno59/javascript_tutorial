@@ -1,0 +1,7 @@
+console.log("hello, world");
+
+console.log("hello,\nworld");
+
+let num = 10;
+print("price1 :" + (800*num));
+
